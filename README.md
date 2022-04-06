@@ -15,3 +15,15 @@ draw a meaningful conclusion. (deliverable: Performance outputs in Notebook, exp
 conclusion in Word/PDF document)
 
 # Install packages
+import pandas as pd
+import numpy as np
+from sklearn.model_selection import train_test_split
+from sklearn import linear_model
+from sklearn.linear_model import LogisticRegression
+from sklearn import metrics
+import matplotlib.pyplot as plt
+from sklearn.model_selection import GridSearchCV
+from matplotlib import pyplot
+from sklearn.metrics import confusion_matrix
+from sklearn.metrics import classification_report
+from sklearn.metrics import roc_curve, auc
